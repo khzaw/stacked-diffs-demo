@@ -10,3 +10,7 @@ farewell name = "Goodbye, " ++ name ++ "!"
 -- Addition 1: Simple boolean check
 isShortName :: String -> Bool
 isShortName name = length name < 5
+
+-- Addition 2: Basic list operation
+repeatName :: String -> Int -> [String]
+repeatName name times = replicate times name
